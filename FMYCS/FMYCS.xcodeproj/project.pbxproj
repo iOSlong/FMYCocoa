@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */; };
+		8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067D11E0118FB002B6E52 /* constantUI.swift */; };
+		8E897B691DF02EBF00EE0BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B681DF02EBF00EE0BD2 /* AppDelegate.swift */; };
+		8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B6A1DF02EBF00EE0BD2 /* ViewController.swift */; };
+		8E897B6E1DF02EBF00EE0BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E897B6C1DF02EBF00EE0BD2 /* Main.storyboard */; };
+		8E897B701DF02EBF00EE0BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E897B6F1DF02EBF00EE0BD2 /* Assets.xcassets */; };
+		8E897B731DF02EBF00EE0BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E897B711DF02EBF00EE0BD2 /* LaunchScreen.storyboard */; };
+		8E897B7C1DF0317D00EE0BD2 /* CSTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */; };
+		8E897B801DF032E900EE0BD2 /* CSOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */; };
+		8EBA41C41E01672600895D22 /* FMYUIListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */; };
+		8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C51E0178A600895D22 /* FMYViewController.swift */; };
+		8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */; };
+		8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */; };
+		8EBA41CF1E02432B00895D22 /* FMYUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41CE1E02432B00895D22 /* FMYUtils.swift */; };
+		8EBA41D31E0273D900895D22 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41D21E0273D900895D22 /* UIView+Positioning.m */; };
+		8EBA41D51E0276FE00895D22 /* moonNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D41E0276FE00895D22 /* moonNight.jpg */; };
+		8EBA41D81E02837000895D22 /* yellowMoonCityNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */; };
+		8EBA41D91E02837000895D22 /* yellowMoonFlash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D71E02837000895D22 /* yellowMoonFlash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSLayoutViewController.swift; sourceTree = "<group>"; };
+		8E1067D01E00F7BC002B6E52 /* ConstantUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantUI.h; sourceTree = "<group>"; };
+		8E1067D11E0118FB002B6E52 /* constantUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constantUI.swift; sourceTree = "<group>"; };
+		8E897B651DF02EBF00EE0BD2 /* FMYCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMYCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E897B681DF02EBF00EE0BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E897B6A1DF02EBF00EE0BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E897B6D1DF02EBF00EE0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E897B6F1DF02EBF00EE0BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E897B721DF02EBF00EE0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E897B741DF02EBF00EE0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSTestViewController.swift; sourceTree = "<group>"; };
+		8E897B7D1DF032E900EE0BD2 /* FMYCS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMYCS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSOCViewController.h; sourceTree = "<group>"; };
+		8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOCViewController.m; sourceTree = "<group>"; };
+		8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIListViewController.swift; sourceTree = "<group>"; };
+		8EBA41C51E0178A600895D22 /* FMYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYViewController.swift; sourceTree = "<group>"; };
+		8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIShowViewController.swift; sourceTree = "<group>"; };
+		8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIControlViewController.swift; sourceTree = "<group>"; };
+		8EBA41CE1E02432B00895D22 /* FMYUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUtils.swift; sourceTree = "<group>"; };
+		8EBA41D11E0273D900895D22 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		8EBA41D21E0273D900895D22 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		8EBA41D41E0276FE00895D22 /* moonNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonNight.jpg; sourceTree = "<group>"; };
+		8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowMoonCityNight.jpg; sourceTree = "<group>"; };
+		8EBA41D71E02837000895D22 /* yellowMoonFlash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowMoonFlash.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E897B621DF02EBF00EE0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1067CD1E00F35A002B6E52 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8E1067D01E00F7BC002B6E52 /* ConstantUI.h */,
+				8E1067D11E0118FB002B6E52 /* constantUI.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8E897B5C1DF02EBF00EE0BD2 = {
+			isa = PBXGroup;
+			children = (
+				8E897B671DF02EBF00EE0BD2 /* FMYCS */,
+				8E897B661DF02EBF00EE0BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E897B661DF02EBF00EE0BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E897B651DF02EBF00EE0BD2 /* FMYCS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E897B671DF02EBF00EE0BD2 /* FMYCS */ = {
+			isa = PBXGroup;
+			children = (
+				8EBA41D01E0273B200895D22 /* Categories */,
+				8EBA41CD1E0242FE00895D22 /* FMYUtils */,
+				8E1067CD1E00F35A002B6E52 /* Constants */,
+				8E897B7A1DF0313400EE0BD2 /* viewcontrollers */,
+				8E897B681DF02EBF00EE0BD2 /* AppDelegate.swift */,
+				8E897B6A1DF02EBF00EE0BD2 /* ViewController.swift */,
+				8EBA41D41E0276FE00895D22 /* moonNight.jpg */,
+				8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */,
+				8EBA41D71E02837000895D22 /* yellowMoonFlash.jpg */,
+				8E897B6C1DF02EBF00EE0BD2 /* Main.storyboard */,
+				8E897B6F1DF02EBF00EE0BD2 /* Assets.xcassets */,
+				8E897B711DF02EBF00EE0BD2 /* LaunchScreen.storyboard */,
+				8E897B741DF02EBF00EE0BD2 /* Info.plist */,
+			);
+			path = FMYCS;
+			sourceTree = "<group>";
+		};
+		8E897B7A1DF0313400EE0BD2 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */,
+				8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */,
+				8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */,
+				8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */,
+				8E897B7D1DF032E900EE0BD2 /* FMYCS-Bridging-Header.h */,
+				8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */,
+				8EBA41C51E0178A600895D22 /* FMYViewController.swift */,
+				8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */,
+				8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		8EBA41CD1E0242FE00895D22 /* FMYUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8EBA41CE1E02432B00895D22 /* FMYUtils.swift */,
+			);
+			path = FMYUtils;
+			sourceTree = "<group>";
+		};
+		8EBA41D01E0273B200895D22 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8EBA41D11E0273D900895D22 /* UIView+Positioning.h */,
+				8EBA41D21E0273D900895D22 /* UIView+Positioning.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E897B641DF02EBF00EE0BD2 /* FMYCS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E897B771DF02EBF00EE0BD2 /* Build configuration list for PBXNativeTarget "FMYCS" */;
+			buildPhases = (
+				8E897B611DF02EBF00EE0BD2 /* Sources */,
+				8E897B621DF02EBF00EE0BD2 /* Frameworks */,
+				8E897B631DF02EBF00EE0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMYCS;
+			productName = FMYCS;
+			productReference = 8E897B651DF02EBF00EE0BD2 /* FMYCS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E897B5D1DF02EBF00EE0BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fmylove;
+				TargetAttributes = {
+					8E897B641DF02EBF00EE0BD2 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8E897B601DF02EBF00EE0BD2 /* Build configuration list for PBXProject "FMYCS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E897B5C1DF02EBF00EE0BD2;
+			productRefGroup = 8E897B661DF02EBF00EE0BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E897B641DF02EBF00EE0BD2 /* FMYCS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E897B631DF02EBF00EE0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E897B731DF02EBF00EE0BD2 /* LaunchScreen.storyboard in Resources */,
+				8EBA41D91E02837000895D22 /* yellowMoonFlash.jpg in Resources */,
+				8E897B701DF02EBF00EE0BD2 /* Assets.xcassets in Resources */,
+				8EBA41D51E0276FE00895D22 /* moonNight.jpg in Resources */,
+				8EBA41D81E02837000895D22 /* yellowMoonCityNight.jpg in Resources */,
+				8E897B6E1DF02EBF00EE0BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E897B611DF02EBF00EE0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */,
+				8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */,
+				8E897B7C1DF0317D00EE0BD2 /* CSTestViewController.swift in Sources */,
+				8EBA41C41E01672600895D22 /* FMYUIListViewController.swift in Sources */,
+				8EBA41CF1E02432B00895D22 /* FMYUtils.swift in Sources */,
+				8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */,
+				8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */,
+				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
+				8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */,
+				8E897B801DF032E900EE0BD2 /* CSOCViewController.m in Sources */,
+				8EBA41D31E0273D900895D22 /* UIView+Positioning.m in Sources */,
+				8E897B691DF02EBF00EE0BD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E897B6C1DF02EBF00EE0BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E897B6D1DF02EBF00EE0BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E897B711DF02EBF00EE0BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E897B721DF02EBF00EE0BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E897B751DF02EBF00EE0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E897B761DF02EBF00EE0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E897B781DF02EBF00EE0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FMYCS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmylove.FMYCS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/viewcontrollers/FMYCS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E897B791DF02EBF00EE0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FMYCS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fmylove.FMYCS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/viewcontrollers/FMYCS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E897B601DF02EBF00EE0BD2 /* Build configuration list for PBXProject "FMYCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E897B751DF02EBF00EE0BD2 /* Debug */,
+				8E897B761DF02EBF00EE0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E897B771DF02EBF00EE0BD2 /* Build configuration list for PBXNativeTarget "FMYCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E897B781DF02EBF00EE0BD2 /* Debug */,
+				8E897B791DF02EBF00EE0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E897B5D1DF02EBF00EE0BD2 /* Project object */;
+}
