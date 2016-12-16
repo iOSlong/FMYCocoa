@@ -50,8 +50,15 @@ class FMYUIControlViewController: FMYViewController {
     }
     func buttonClick(_ button:UIButton) {
         print(button.title(for: .normal) ?? "hahaha")
+        self.performSelector(onMainThread: #selector(showHintInfo), with: nil, waitUntilDone: true)
     }
-    
+    func showHintInfo() {
+        MBProgressHUD.showAdded(to: self.view, animated: true)
+        perform(#selector(hiddenHintInfo), with: self, afterDelay: 3)
+    }
+    func hiddenHintInfo() {
+        MBProgressHUD.hide(for: self.view, animated: true)
+    }
     
     func configureItemOfUISwitch() {
         let swc     = UISwitch.init(frame: CGRect.init(x: f_left, y: f_navBarH, width: 60, height: 30))

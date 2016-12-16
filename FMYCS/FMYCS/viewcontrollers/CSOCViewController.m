@@ -7,6 +7,7 @@
 //
 
 #import "CSOCViewController.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface CSOCViewController ()
 
@@ -33,7 +34,17 @@
     NSString *className =  NSStringFromClass([label class]);
     NSLog(@"%@",className);
     
+    
+    [self performSelectorOnMainThread:@selector(showHintInfo) withObject:self waitUntilDone:YES];
 
+
+}
+
+- (void)showHintInfo {
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [MBProgressHUD hideHUDForView:self.view animated:YES];
+    });
 }
 
 - (void)didReceiveMemoryWarning {

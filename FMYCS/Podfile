@@ -4,6 +4,7 @@
 # use_frameworks!
 
 target 'FMYCS' do
+   pod 'MBProgressHUD', '~> 1.0.0'
 
 end
 

@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   type = "1"
+   type = "0"
    version = "2.0">
    <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMYCS/viewcontrollers/CSOCViewController.m"
+            timestampString = "503488335.550293"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-showHintInfo"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMYCS/viewcontrollers/CSOCViewController.m"
+            timestampString = "503488345.955248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMYCS/FMYUtils/FMYUtils.swift"
+            timestampString = "503494565.07199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "judgeViewType(className:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMYCS/FMYUtils/FMYUtils.swift"
+            timestampString = "503494565.07199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "judgeViewType(className:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
@@ -13,8 +77,8 @@
             timestampString = "503494887.809906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "testProblem()"
             landmarkType = "7">
          </BreakpointContent>
@@ -25,14 +89,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/Constants/constantUI.swift"
-            timestampString = "503478731.63208"
+            filePath = "FMYCS/AppDelegate.swift"
+            timestampString = "503550762.033902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "RGBCOLOR_HEX(h:)"
-            landmarkType = "9">
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -41,14 +105,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/Constants/constantUI.swift"
-            timestampString = "503478731.63208"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresTableViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "RGBCOLOR_HEX(h:)"
-            landmarkType = "9">
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -57,44 +121,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/Constants/constantUI.swift"
-            timestampString = "503478731.63208"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresTableViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "RGBCOLOR_HEX(h:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/Constants/constantUI.swift"
-            timestampString = "503478731.63208"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "RGBCOLOR_HEX(h:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIListViewController.swift"
-            timestampString = "503466006.116696"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -105,13 +137,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIListViewController.swift"
-            timestampString = "503466006.116696"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "FMYUIListViewController"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "FMYClosuresViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -121,13 +153,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIListViewController.swift"
-            timestampString = "503466422.797679"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "closuresFuncBaseOne()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -137,13 +169,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIListViewController.swift"
-            timestampString = "503466422.797679"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "configureDataSource(reload:)"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "closuresFuncBaseOne()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -153,61 +185,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/FMYUtils/FMYUtils.swift"
-            timestampString = "503494565.07199"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "judgeViewType(className:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/FMYUtils/FMYUtils.swift"
-            timestampString = "503494565.07199"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "judgeViewType(className:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/FMYUtils/FMYUtils.swift"
-            timestampString = "503494565.07199"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "judgeViewType(className:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIShowViewController.swift"
-            timestampString = "503493821.185015"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "configureItemOfUILabel()"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "closuresFuncBaseOne()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -217,13 +201,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIShowViewController.swift"
-            timestampString = "503493821.185015"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "configureItemOfUIImageView()"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "closuresFuncBaseOne()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -233,27 +217,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/Constants/constantUI.swift"
-            timestampString = "503478728.34781"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIShowViewController.swift"
-            timestampString = "503493821.185015"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "configureItemOfUIImageView()"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "callModelClosures()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -263,13 +233,61 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIShowViewController.swift"
-            timestampString = "503493821.185015"
+            filePath = "FMYCS/FMYObject.swift"
+            timestampString = "503569584.972143"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "addScrollItems(items:)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "FMYObject"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FMYCS.FMYObject.init () -&gt; FMYCS.FMYObject"
+                  moduleName = "FMYCS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuewu.long/Desktop/github/fmy/FMYCocoa/FMYCS/FMYCS/FMYObject.swift"
+                  timestampString = "503568731.848941"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FMYCS.FMYObject.__allocating_init () -&gt; FMYCS.FMYObject"
+                  moduleName = "FMYCS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuewu.long/Desktop/github/fmy/FMYCocoa/FMYCS/FMYCS/FMYObject.swift"
+                  timestampString = "503568731.851036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FMYCS/FMYObject.swift"
+            timestampString = "503571499.351692"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "funcForGetInfoClosure()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -279,45 +297,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIControlViewController.swift"
-            timestampString = "503484133.229431"
+            filePath = "FMYCS/viewcontrollers/FMYClosuresViewController.swift"
+            timestampString = "503572204.329124"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIListViewController.swift"
-            timestampString = "503483083.615591"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FMYCS/viewcontrollers/FMYUIControlViewController.swift"
-            timestampString = "503488606.45714"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "configureItemOfUISwitch()"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "callCallBackClosures()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

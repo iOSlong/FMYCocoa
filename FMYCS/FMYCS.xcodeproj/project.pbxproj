@@ -25,9 +25,16 @@
 		8EBA41D51E0276FE00895D22 /* moonNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D41E0276FE00895D22 /* moonNight.jpg */; };
 		8EBA41D81E02837000895D22 /* yellowMoonCityNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */; };
 		8EBA41D91E02837000895D22 /* yellowMoonFlash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA41D71E02837000895D22 /* yellowMoonFlash.jpg */; };
+		8EBA41DE1E0395D900895D22 /* FMYClosuresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41DD1E0395D900895D22 /* FMYClosuresTableViewController.swift */; };
+		8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */; };
+		8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E21E03CE0800895D22 /* FMYObject.swift */; };
+		8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */; };
+		C86C8D8F520EF1EEA046550D /* libPods-FMYCS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6184F070D9717D68A33883E6 /* libPods-FMYCS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6184F070D9717D68A33883E6 /* libPods-FMYCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMYCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.release.xcconfig"; sourceTree = "<group>"; };
 		8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSLayoutViewController.swift; sourceTree = "<group>"; };
 		8E1067D01E00F7BC002B6E52 /* ConstantUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantUI.h; sourceTree = "<group>"; };
 		8E1067D11E0118FB002B6E52 /* constantUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constantUI.swift; sourceTree = "<group>"; };
@@ -39,7 +46,6 @@
 		8E897B721DF02EBF00EE0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E897B741DF02EBF00EE0BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSTestViewController.swift; sourceTree = "<group>"; };
-		8E897B7D1DF032E900EE0BD2 /* FMYCS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FMYCS-Bridging-Header.h"; sourceTree = "<group>"; };
 		8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSOCViewController.h; sourceTree = "<group>"; };
 		8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOCViewController.m; sourceTree = "<group>"; };
 		8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIListViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +58,12 @@
 		8EBA41D41E0276FE00895D22 /* moonNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonNight.jpg; sourceTree = "<group>"; };
 		8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowMoonCityNight.jpg; sourceTree = "<group>"; };
 		8EBA41D71E02837000895D22 /* yellowMoonFlash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowMoonFlash.jpg; sourceTree = "<group>"; };
+		8EBA41DA1E029C3B00895D22 /* FMYCS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMYCS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8EBA41DD1E0395D900895D22 /* FMYClosuresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYClosuresTableViewController.swift; sourceTree = "<group>"; };
+		8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYClosuresViewController.swift; sourceTree = "<group>"; };
+		8EBA41E21E03CE0800895D22 /* FMYObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYObject.swift; sourceTree = "<group>"; };
+		8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYValuesTypeViewController.swift; sourceTree = "<group>"; };
+		CFDE09A17796363BB164D19D /* Pods-FMYCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,16 +71,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86C8D8F520EF1EEA046550D /* libPods-FMYCS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		366B886E9E9806D84BD16E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFDE09A17796363BB164D19D /* Pods-FMYCS.debug.xcconfig */,
+				846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E1067CD1E00F35A002B6E52 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
 				8E1067D01E00F7BC002B6E52 /* ConstantUI.h */,
+				8EBA41DA1E029C3B00895D22 /* FMYCS-Bridging-Header.h */,
 				8E1067D11E0118FB002B6E52 /* constantUI.swift */,
 			);
 			path = Constants;
@@ -79,6 +102,8 @@
 			children = (
 				8E897B671DF02EBF00EE0BD2 /* FMYCS */,
 				8E897B661DF02EBF00EE0BD2 /* Products */,
+				366B886E9E9806D84BD16E80 /* Pods */,
+				A5FB4E9D097BB9E55B9EA89A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +118,7 @@
 		8E897B671DF02EBF00EE0BD2 /* FMYCS */ = {
 			isa = PBXGroup;
 			children = (
+				8EBA41E11E03CDEB00895D22 /* Models */,
 				8EBA41D01E0273B200895D22 /* Categories */,
 				8EBA41CD1E0242FE00895D22 /* FMYUtils */,
 				8E1067CD1E00F35A002B6E52 /* Constants */,
@@ -113,15 +139,17 @@
 		8E897B7A1DF0313400EE0BD2 /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */,
 				8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */,
 				8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */,
 				8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */,
 				8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */,
-				8E897B7D1DF032E900EE0BD2 /* FMYCS-Bridging-Header.h */,
 				8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */,
 				8EBA41C51E0178A600895D22 /* FMYViewController.swift */,
 				8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */,
 				8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */,
+				8EBA41DD1E0395D900895D22 /* FMYClosuresTableViewController.swift */,
+				8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -143,6 +171,22 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		8EBA41E11E03CDEB00895D22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EBA41E21E03CE0800895D22 /* FMYObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A5FB4E9D097BB9E55B9EA89A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6184F070D9717D68A33883E6 /* libPods-FMYCS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E897B771DF02EBF00EE0BD2 /* Build configuration list for PBXNativeTarget "FMYCS" */;
 			buildPhases = (
+				B61D45A9B5F90F2176345F1F /* [CP] Check Pods Manifest.lock */,
 				8E897B611DF02EBF00EE0BD2 /* Sources */,
 				8E897B621DF02EBF00EE0BD2 /* Frameworks */,
 				8E897B631DF02EBF00EE0BD2 /* Resources */,
+				1313AF051A54E208F4A8E28F /* [CP] Embed Pods Frameworks */,
+				EA669C7206D48EC8C65FD100 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +216,7 @@
 		8E897B5D1DF02EBF00EE0BD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FMY;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = fmylove;
@@ -214,12 +262,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1313AF051A54E208F4A8E28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61D45A9B5F90F2176345F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA669C7206D48EC8C65FD100 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E897B611DF02EBF00EE0BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBA41DE1E0395D900895D22 /* FMYClosuresTableViewController.swift in Sources */,
 				8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */,
+				8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */,
 				8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */,
 				8E897B7C1DF0317D00EE0BD2 /* CSTestViewController.swift in Sources */,
 				8EBA41C41E01672600895D22 /* FMYUIListViewController.swift in Sources */,
@@ -227,6 +325,8 @@
 				8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */,
 				8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */,
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
+				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,
+				8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */,
 				8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */,
 				8E897B801DF032E900EE0BD2 /* CSOCViewController.m in Sources */,
 				8EBA41D31E0273D900895D22 /* UIView+Positioning.m in Sources */,
@@ -351,6 +451,7 @@
 		};
 		8E897B781DF02EBF00EE0BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDE09A17796363BB164D19D /* Pods-FMYCS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -359,7 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fmylove.FMYCS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/viewcontrollers/FMYCS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/Constants/FMYCS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -367,6 +468,7 @@
 		};
 		8E897B791DF02EBF00EE0BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -375,7 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fmylove.FMYCS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/viewcontrollers/FMYCS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FMYCS/Constants/FMYCS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -44,6 +44,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #endif
     
         
+//        let arrV:Array = ["1","2","3"];
+//        let floatV:CGFloat = CGFloat(arrV.count)
+//        
+//
+//        
+//        var myObject: Any = UITableViewCell()
+//        myObject = NSData()
+//        let futureDate      = (myObject as AnyObject).addingTimeInterval(10)
+//        let charOne         = (myObject as AnyObject).character(at: 5)
+//        let index           = (myObject as AnyObject).index(of: "hahaha")
+//        let subView         = (myObject as AnyObject).subviews.first
+//        let key             = (myObject as AnyObject).allKeys.first
+        
+        
         
         return true
     }

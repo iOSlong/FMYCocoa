@@ -18,6 +18,9 @@ class FMYUIShowViewController: FMYViewController , UIScrollViewDelegate{
         self.navigationController?.navigationBar.isTranslucent  = false
         
         
+        
+        
+        
         let className   = self.itemInfo.allValues.first as! String
         let viewType = judgeViewType(className: className)
         switch viewType {
