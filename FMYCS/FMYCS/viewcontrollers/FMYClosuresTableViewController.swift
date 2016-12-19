@@ -8,12 +8,13 @@
 
 import UIKit
 
-class FMYClosuresTableViewController: UITableViewController {
+class FMYClosuresTableViewController: UITableViewController , ColorSentDelegate{
     var arrSources:NSMutableArray = []
     
     func configueSourcesForReload(reload : Bool) {
         self.arrSources.add(["first" : "Closure-base"])
         self.arrSources.add(["second": "Values-base"])
+        self.arrSources.add(["third": "Protocal"])
         if reload {
             self.tableView.reloadData()
         }
@@ -42,6 +43,8 @@ class FMYClosuresTableViewController: UITableViewController {
         let content             = self.arrSources[indexPath.row] as? NSDictionary
         cell?.accessoryType      = .disclosureIndicator
         cell?.textLabel?.text    = content?.allValues.first as! String?
+        cell?.backgroundColor   = UIColor.clear
+        cell?.textLabel?.textColor = RGBCOLOR_HEX(h: "0x123456")
         return cell!
     }
 
@@ -54,12 +57,29 @@ class FMYClosuresTableViewController: UITableViewController {
             closuresVC  = FMYClosuresViewController()
         }else if indexPath.row == 1 {
             closuresVC  = FMYValuesTypeViewController()
+        }else if indexPath.row == 2 {
+            closuresVC  = FMYProtocalViewController()
+            (closuresVC as! FMYProtocalViewController).delegate = self
         }
         closuresVC?.itemInfo = content as! NSDictionary
         self.navigationController?.pushViewController(closuresVC!, animated: true)
         print("\(indexPath)")
     }
 
+    
+    
+    // ColorSentDelegate
+    func colorSent(color: UIColor) {
+        self.tableView.backgroundColor = color
+        self.view.backgroundColor   = color
+    }
+    
+    func colorSentBack(color: UIColor) -> Bool {
+        self.view.backgroundColor  = UIColor.white
+        self.tableView.backgroundColor = color;
+        return true
+    }
+    
     
     
     

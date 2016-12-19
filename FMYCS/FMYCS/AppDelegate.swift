@@ -44,20 +44,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #endif
     
         
-//        let arrV:Array = ["1","2","3"];
-//        let floatV:CGFloat = CGFloat(arrV.count)
-//        
-//
-//        
-//        var myObject: Any = UITableViewCell()
-//        myObject = NSData()
-//        let futureDate      = (myObject as AnyObject).addingTimeInterval(10)
-//        let charOne         = (myObject as AnyObject).character(at: 5)
-//        let index           = (myObject as AnyObject).index(of: "hahaha")
-//        let subView         = (myObject as AnyObject).subviews.first
-//        let key             = (myObject as AnyObject).allKeys.first
+        let gabrielle   = FMYPerson(name: "Gabrielle")
+        let jim         = FMYPerson(name: "Jim")
+        let yuanyuan    = FMYPerson(name: "Yuanyuan")
+        gabrielle.friends       = [jim, yuanyuan]
+        gabrielle.bestFriend    = yuanyuan
+        
+        print(#keyPath(FMYPerson.name))
+        
+        // "name"
+        gabrielle.value(forKey: #keyPath(FMYPerson.name))
+        // "Gabrielle"
+        print(#keyPath(FMYPerson.bestFriend.name))
+        // "bestFriend.name"
+        gabrielle.value(forKeyPath: #keyPath(FMYPerson.bestFriend.name))
+        // "Yuanyuan"
+        print(#keyPath(FMYPerson.friends.name))
+        // "friends.name"
+        gabrielle.value(forKeyPath: #keyPath(FMYPerson.friends.name))
+        // ["Yuanyuan", "Jim"]
         
         
+        var  myPersonClass: AnyClass? = NSClassFromString("CSOCViewController")
+        print(myPersonClass ?? "");//
+        myPersonClass = NSClassFromString("FMYCS.CSOCViewController")
+        print(myPersonClass ?? "");
+
+        myPersonClass = NSClassFromString("FMYPerson")
+        print(myPersonClass ?? "");
+        
+        myPersonClass = NSClassFromString("FMYCS.FMYPerson")
+        print(myPersonClass ?? "");
+
+        myPersonClass = NSClassFromString("UIButton")
+        print(myPersonClass ?? "");
+
+        myPersonClass = NSClassFromString("FMYCS.UIButton")
+        print(myPersonClass ?? "");
+
         
         return true
     }

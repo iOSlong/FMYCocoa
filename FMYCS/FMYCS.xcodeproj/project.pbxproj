@@ -16,6 +16,8 @@
 		8E897B731DF02EBF00EE0BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E897B711DF02EBF00EE0BD2 /* LaunchScreen.storyboard */; };
 		8E897B7C1DF0317D00EE0BD2 /* CSTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */; };
 		8E897B801DF032E900EE0BD2 /* CSOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */; };
+		8EB7261D1E07FA80004686B6 /* FMYPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7261C1E07FA80004686B6 /* FMYPerson.swift */; };
+		8EB7261F1E0803C7004686B6 /* FMYProtocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7261E1E0803C7004686B6 /* FMYProtocalViewController.swift */; };
 		8EBA41C41E01672600895D22 /* FMYUIListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */; };
 		8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C51E0178A600895D22 /* FMYViewController.swift */; };
 		8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */; };
@@ -48,6 +50,8 @@
 		8E897B7B1DF0317D00EE0BD2 /* CSTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSTestViewController.swift; sourceTree = "<group>"; };
 		8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSOCViewController.h; sourceTree = "<group>"; };
 		8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSOCViewController.m; sourceTree = "<group>"; };
+		8EB7261C1E07FA80004686B6 /* FMYPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYPerson.swift; sourceTree = "<group>"; };
+		8EB7261E1E0803C7004686B6 /* FMYProtocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYProtocalViewController.swift; sourceTree = "<group>"; };
 		8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIListViewController.swift; sourceTree = "<group>"; };
 		8EBA41C51E0178A600895D22 /* FMYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYViewController.swift; sourceTree = "<group>"; };
 		8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIShowViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */,
 				8EBA41DD1E0395D900895D22 /* FMYClosuresTableViewController.swift */,
 				8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */,
+				8EB7261E1E0803C7004686B6 /* FMYProtocalViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				8EBA41E21E03CE0800895D22 /* FMYObject.swift */,
+				8EB7261C1E07FA80004686B6 /* FMYPerson.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -319,10 +325,12 @@
 				8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */,
 				8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */,
 				8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */,
+				8EB7261D1E07FA80004686B6 /* FMYPerson.swift in Sources */,
 				8E897B7C1DF0317D00EE0BD2 /* CSTestViewController.swift in Sources */,
 				8EBA41C41E01672600895D22 /* FMYUIListViewController.swift in Sources */,
 				8EBA41CF1E02432B00895D22 /* FMYUtils.swift in Sources */,
 				8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */,
+				8EB7261F1E0803C7004686B6 /* FMYProtocalViewController.swift in Sources */,
 				8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */,
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
 				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,
