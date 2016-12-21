@@ -92,6 +92,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
         let path = diskCachePath(nameSpace: "down_files")
         print(path)
+
+
+
+
+        let mySessionM:FMYURLSessionManager = FMYURLSessionManager(configuration: nil)
+        let mySessionM2:FMYURLSessionManager = FMYURLSessionManager()
+
+
+
+
+
+
+
+
+
+
+
         return true
     }
 

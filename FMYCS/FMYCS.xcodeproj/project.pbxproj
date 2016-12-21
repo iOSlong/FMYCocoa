@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CE75521E0ADB5200B76D1C /* FMYURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */; };
 		8E0ED0DD1E0A7CCB002A94E5 /* FMYRegionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */; };
 		8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */; };
 		8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067D11E0118FB002B6E52 /* constantUI.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYURLSessionManager.swift; sourceTree = "<group>"; };
 		6184F070D9717D68A33883E6 /* libPods-FMYCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMYCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.release.xcconfig"; sourceTree = "<group>"; };
 		8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYRegionCountry.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CE75501E0AD76800B76D1C /* NetAcess */ = {
+			isa = PBXGroup;
+			children = (
+				01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */,
+			);
+			path = NetAcess;
+			sourceTree = "<group>";
+		};
 		366B886E9E9806D84BD16E80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		8E897B671DF02EBF00EE0BD2 /* FMYCS */ = {
 			isa = PBXGroup;
 			children = (
+				01CE75501E0AD76800B76D1C /* NetAcess */,
 				8EBA41E11E03CDEB00895D22 /* Models */,
 				8EBA41D01E0273B200895D22 /* Categories */,
 				8EBA41CD1E0242FE00895D22 /* FMYUtils */,
@@ -339,6 +350,7 @@
 				8EBA41DE1E0395D900895D22 /* FMYClosuresTableViewController.swift in Sources */,
 				8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */,
 				8EDC47BD1E093C74002667C8 /* FMYUIWebViewController.swift in Sources */,
+				01CE75521E0ADB5200B76D1C /* FMYURLSessionManager.swift in Sources */,
 				8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */,
 				8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */,
 				8EB7261D1E07FA80004686B6 /* FMYPerson.swift in Sources */,
