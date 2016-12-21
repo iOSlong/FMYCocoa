@@ -5,6 +5,7 @@
 
 target 'FMYCS' do
    pod 'MBProgressHUD', '~> 1.0.0'
+   pod 'SSZipArchive', '~> 1.6.2'
 
 end
 

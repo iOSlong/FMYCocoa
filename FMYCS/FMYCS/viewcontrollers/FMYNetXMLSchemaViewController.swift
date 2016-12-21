@@ -14,19 +14,11 @@ class FMYNetXMLSchemaViewController: FMYViewController,URLSessionDataDelegate,XM
     var list:Array<FMYRegionCountry> = []
     var regionCountry:FMYRegionCountry? = nil
     
-    private var _table:UITableView? = nil
-    var tableView:UITableView {
-        get {
-            if (_table != nil) {
-                return _table!
-            }
-            _table = UITableView.init(frame: self.view.bounds, style: .plain)
-            _table?.dataSource = self
-            _table?.delegate  = self
-            return _table!
-        }
-    }
-    
+    // 懒加载一下。
+    lazy var tableView:UITableView  = {
+        UITableView(frame: self.view.bounds, style: .plain)
+    }()
+
     
     
     override func viewDidLoad() {
@@ -37,6 +29,8 @@ class FMYNetXMLSchemaViewController: FMYViewController,URLSessionDataDelegate,XM
         
         self.view.addSubview(self.tableView)
 
+        self.tableView.dataSource = self;
+        self.tableView.delegate = self;
         
         self.netGetRegionCountry()
     

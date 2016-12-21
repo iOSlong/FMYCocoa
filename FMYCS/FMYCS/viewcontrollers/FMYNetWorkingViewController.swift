@@ -12,6 +12,15 @@ class FMYNetWorkingViewController: FMYViewController ,URLSessionDownloadDelegate
     var downLoadBtn : UIButton? = nil
     var linkBtn : UIButton?     = nil
     var fieldUrl : UITextField? = nil
+    
+    
+    lazy var regionC: FMYRegionCountry = {
+        print("懒加载")
+        return FMYRegionCountry()
+    }()
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
