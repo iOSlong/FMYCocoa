@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0ED0DD1E0A7CCB002A94E5 /* FMYRegionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */; };
 		8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */; };
 		8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067D11E0118FB002B6E52 /* constantUI.swift */; };
 		8E897B691DF02EBF00EE0BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E897B681DF02EBF00EE0BD2 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 		8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */; };
 		8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E21E03CE0800895D22 /* FMYObject.swift */; };
 		8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */; };
+		8ECE89B61E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89B51E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift */; };
 		8EDC47BB1E092B78002667C8 /* FMYNetWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */; };
 		8EDC47BD1E093C74002667C8 /* FMYUIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */; };
 		8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */; };
@@ -40,6 +42,7 @@
 /* Begin PBXFileReference section */
 		6184F070D9717D68A33883E6 /* libPods-FMYCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMYCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.release.xcconfig"; sourceTree = "<group>"; };
+		8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYRegionCountry.swift; sourceTree = "<group>"; };
 		8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSLayoutViewController.swift; sourceTree = "<group>"; };
 		8E1067D01E00F7BC002B6E52 /* ConstantUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantUI.h; sourceTree = "<group>"; };
 		8E1067D11E0118FB002B6E52 /* constantUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constantUI.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYClosuresViewController.swift; sourceTree = "<group>"; };
 		8EBA41E21E03CE0800895D22 /* FMYObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYObject.swift; sourceTree = "<group>"; };
 		8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYValuesTypeViewController.swift; sourceTree = "<group>"; };
+		8ECE89B51E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYNetXMLSchemaViewController.swift; sourceTree = "<group>"; };
 		8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYNetWorkingViewController.swift; sourceTree = "<group>"; };
 		8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIWebViewController.swift; sourceTree = "<group>"; };
 		8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYMKWebViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +168,7 @@
 				8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */,
 				8EB7261E1E0803C7004686B6 /* FMYProtocalViewController.swift */,
 				8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */,
+				8ECE89B51E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			children = (
 				8EBA41E21E03CE0800895D22 /* FMYObject.swift */,
 				8EB7261C1E07FA80004686B6 /* FMYPerson.swift */,
+				8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -346,7 +352,9 @@
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
 				8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */,
 				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,
+				8ECE89B61E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift in Sources */,
 				8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */,
+				8E0ED0DD1E0A7CCB002A94E5 /* FMYRegionCountry.swift in Sources */,
 				8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */,
 				8E897B801DF032E900EE0BD2 /* CSOCViewController.m in Sources */,
 				8EBA41D31E0273D900895D22 /* UIView+Positioning.m in Sources */,

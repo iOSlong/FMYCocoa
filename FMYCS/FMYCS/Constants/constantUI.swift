@@ -67,6 +67,7 @@ func RGBCOLOR_HEX(h:String) -> UIColor {
 
 //  MARK: String About
 let url_videos =   "http://120.25.226.186:32812/resources/videos/minion_02.mp4"
+let url_regionCountry = "http://ws.webxml.com.cn/WebServices/WeatherWS.asmx/getRegionCountry"
 
 
 

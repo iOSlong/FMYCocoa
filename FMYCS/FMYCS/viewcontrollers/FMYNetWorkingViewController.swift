@@ -83,7 +83,7 @@ class FMYNetWorkingViewController: FMYViewController ,URLSessionDownloadDelegate
                 print(error)
             }
         }
-        // 从下载临时文件temp中转移文件
+        // 从下载临时文件temp中转移文件    TODO: 实现下载文件的播放
         let desPath = dictCahePath.appendingFormat("/\((downloadTask.response?.suggestedFilename)!)")
         do {
             try FileManager.default.moveItem(at: location, to: URL.init(fileURLWithPath: desPath))
@@ -113,18 +113,6 @@ class FMYNetWorkingViewController: FMYViewController ,URLSessionDownloadDelegate
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
         print(error ?? "")
     }
-    
-//    func urlSession(_ session: URLSession, task: URLSessionTask, didFinishCollecting metrics: URLSessionTaskMetrics) {
-//        
-//    }
-    
-//    func urlSession(_ session: URLSession, task: URLSessionTask, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
-//        print("")
-//    }
-    
-//    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didResumeAtOffset fileOffset: Int64, expectedTotalBytes: Int64) {
-//        
-//    }
     
     
    
