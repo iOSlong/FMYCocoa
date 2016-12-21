@@ -127,6 +127,15 @@ extension UIBezierPath {
     }
 }
 
+//  MARK: PATH ABOUT
+public func diskCachePath(nameSpace: String) -> String {
+    let paths = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
+    return (paths.first?.appendingFormat("/\(nameSpace)"))!
+//    return (paths.first?.appending(nameSpace))!
+}
+
+
+
 
 class FMYUtils: NSObject {
     

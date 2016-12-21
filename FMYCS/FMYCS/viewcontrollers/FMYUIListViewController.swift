@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     var arrSource:NSMutableArray = []
@@ -54,11 +55,14 @@ class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewD
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if section == 0 {
-            return "showInfo Views"
+            return  "showInfo Views"
         }
-        else{
-            return "control Views"
+        else if section == 1 {
+            return  "control Views"
+        }else if section == 2 {
+            return  "webview Shows"
         }
+        return ""
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -79,6 +83,14 @@ class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewD
             let controlVC = FMYUIControlViewController()
             controlVC.itemInfo  = item
             self.navigationController!.pushViewController(controlVC, animated: true)
+        }else if indexPath.section == 2 {
+            if indexPath.row == 0 {
+                let uiwebVC   = FMYUIWebViewController()
+                self.navigationController!.pushViewController(uiwebVC, animated: true)
+            }else{
+                let wkwebVC   = FMYNetWorkingViewController()
+                self.navigationController!.pushViewController(wkwebVC, animated: true)
+            }
         }
     }
     
@@ -103,6 +115,11 @@ class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewD
         let segmentName = NSStringFromClass(UISegmentedControl.self)
         let switchName  = NSStringFromClass(UISwitch.self)
         
+        let uiwebName   = NSStringFromClass(UIWebView.self)
+        let wkwebName   = NSStringFromClass(WKWebView.self)// 引用它需要 import WebKit
+
+        
+        
         let showArr     = [["label":labelName],
                            ["imageView":imgvName],
                            ["scrollView":scrolName]]
@@ -110,9 +127,14 @@ class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewD
         let controlArr  = [["buttom":buttomName],
                            ["segment":segmentName],
                            ["switch":switchName]]
+        
+        let webArray    = [["uiwebView":uiwebName],
+                           ["wkwebView":wkwebName]]
+        
 
         self.arrSource.add(showArr)
         self.arrSource.add(controlArr)
+        self.arrSource.add(webArray)
         
         if reload {
             self.tableView.reloadData()

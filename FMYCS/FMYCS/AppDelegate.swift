@@ -82,7 +82,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         myPersonClass = NSClassFromString("FMYCS.UIButton")
         print(myPersonClass ?? "");
 
+        let someInstance: SomeBaseClass = SomeSubClass()
+        // The compile-time type of someInstance is SomeBaseClass,
+        // and the runtime type of someInstance is SomeSubClass
+        type(of: someInstance).printClassName()
+        // Prints "SomeSubClass”
         
+        type(of:someInstance).printClassName()
+    
+        let path = diskCachePath(nameSpace: "down_files")
+        print(path)
         return true
     }
 

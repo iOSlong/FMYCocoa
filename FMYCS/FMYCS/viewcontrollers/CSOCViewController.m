@@ -50,6 +50,8 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+//    [[UIApplication sharedApplication] openURL:<#(nonnull NSURL *)#> options:<#(nonnull NSDictionary<NSString *,id> *)#> completionHandler:<#^(BOOL success)completion#>]
 }
 
 /*

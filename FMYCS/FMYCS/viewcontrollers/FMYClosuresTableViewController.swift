@@ -15,6 +15,7 @@ class FMYClosuresTableViewController: UITableViewController , ColorSentDelegate{
         self.arrSources.add(["first" : "Closure-base"])
         self.arrSources.add(["second": "Values-base"])
         self.arrSources.add(["third": "Protocal"])
+        self.arrSources.add(["fourth":"NetWorking"])
         if reload {
             self.tableView.reloadData()
         }
@@ -60,6 +61,8 @@ class FMYClosuresTableViewController: UITableViewController , ColorSentDelegate{
         }else if indexPath.row == 2 {
             closuresVC  = FMYProtocalViewController()
             (closuresVC as! FMYProtocalViewController).delegate = self
+        }else if indexPath.row == 3 {
+            closuresVC  = FMYNetWorkingViewController()
         }
         closuresVC?.itemInfo = content as! NSDictionary
         self.navigationController?.pushViewController(closuresVC!, animated: true)

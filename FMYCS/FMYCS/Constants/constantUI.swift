@@ -41,7 +41,6 @@ func RGBACOLOR(r:CGFloat,g:CGFloat,b:CGFloat) -> UIColor {
 
 
 
-
 // FIXME: SOMETHING SHOULD KNOW
 func RGBCOLOR_HEX(h:String) -> UIColor {
     // 第一感觉， swift的字符串解析好恶心
@@ -64,5 +63,10 @@ func RGBCOLOR_HEX(h:String) -> UIColor {
     
     return UIColor.red
 }
+
+
+//  MARK: String About
+let url_videos =   "http://120.25.226.186:32812/resources/videos/minion_02.mp4"
+
 
 

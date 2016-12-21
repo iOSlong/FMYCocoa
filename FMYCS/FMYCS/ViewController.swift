@@ -8,6 +8,18 @@
 
 import UIKit
 
+class SomeBaseClass {
+    class func printClassName() {
+        print("SomeBaseClass")
+    }
+}
+class SomeSubClass: SomeBaseClass {
+    override class func printClassName() {
+        print("SomeSubClass")
+    }
+
+}
+
 class ViewController: UIViewController {
     
     
@@ -16,6 +28,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         testProblem()
+        
+        
+        
         
     }
 

@@ -31,6 +31,9 @@
 		8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */; };
 		8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E21E03CE0800895D22 /* FMYObject.swift */; };
 		8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */; };
+		8EDC47BB1E092B78002667C8 /* FMYNetWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */; };
+		8EDC47BD1E093C74002667C8 /* FMYUIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */; };
+		8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */; };
 		C86C8D8F520EF1EEA046550D /* libPods-FMYCS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6184F070D9717D68A33883E6 /* libPods-FMYCS.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYClosuresViewController.swift; sourceTree = "<group>"; };
 		8EBA41E21E03CE0800895D22 /* FMYObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYObject.swift; sourceTree = "<group>"; };
 		8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYValuesTypeViewController.swift; sourceTree = "<group>"; };
+		8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYNetWorkingViewController.swift; sourceTree = "<group>"; };
+		8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIWebViewController.swift; sourceTree = "<group>"; };
+		8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYMKWebViewController.swift; sourceTree = "<group>"; };
 		CFDE09A17796363BB164D19D /* Pods-FMYCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,12 +155,15 @@
 				8E897B7E1DF032E900EE0BD2 /* CSOCViewController.h */,
 				8E897B7F1DF032E900EE0BD2 /* CSOCViewController.m */,
 				8EBA41C31E01672600895D22 /* FMYUIListViewController.swift */,
+				8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */,
+				8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */,
 				8EBA41C51E0178A600895D22 /* FMYViewController.swift */,
 				8EBA41C71E0178FC00895D22 /* FMYUIShowViewController.swift */,
 				8EBA41C91E01790800895D22 /* FMYUIControlViewController.swift */,
 				8EBA41DD1E0395D900895D22 /* FMYClosuresTableViewController.swift */,
 				8EBA41DF1E03983400895D22 /* FMYClosuresViewController.swift */,
 				8EB7261E1E0803C7004686B6 /* FMYProtocalViewController.swift */,
+				8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */,
 			);
 			path = viewcontrollers;
 			sourceTree = "<group>";
@@ -323,6 +332,7 @@
 			files = (
 				8EBA41DE1E0395D900895D22 /* FMYClosuresTableViewController.swift in Sources */,
 				8E897B6B1DF02EBF00EE0BD2 /* ViewController.swift in Sources */,
+				8EDC47BD1E093C74002667C8 /* FMYUIWebViewController.swift in Sources */,
 				8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */,
 				8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */,
 				8EB7261D1E07FA80004686B6 /* FMYPerson.swift in Sources */,
@@ -331,8 +341,10 @@
 				8EBA41CF1E02432B00895D22 /* FMYUtils.swift in Sources */,
 				8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */,
 				8EB7261F1E0803C7004686B6 /* FMYProtocalViewController.swift in Sources */,
+				8EDC47BB1E092B78002667C8 /* FMYNetWorkingViewController.swift in Sources */,
 				8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */,
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
+				8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */,
 				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,
 				8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */,
 				8EBA41C81E0178FC00895D22 /* FMYUIShowViewController.swift in Sources */,

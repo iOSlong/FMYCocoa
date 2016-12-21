@@ -11,6 +11,8 @@ import UIKit
 
 
 // 声明一个协议
+// 如果要使用optional，需要使用@objc
+
 @objc protocol ColorSentDelegate {
     func colorSent(color:UIColor)
    
