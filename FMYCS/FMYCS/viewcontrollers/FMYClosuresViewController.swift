@@ -24,7 +24,22 @@ class FMYClosuresViewController: FMYViewController {
         
         self.callCallBackClosures()
         
+        self.callBlockComplexity()
     }
+    func callBlockComplexity() {
+//        let completionHander:(String, Array<String>, String) -> Void { (str1, arr1, str2) in
+//            print(str1)
+//        }
+        
+        let mycompletionHander = {(str1:String,  str2:String) ->String  in
+            return str1 + str2
+        }
+        print(mycompletionHander("444","555"))
+        
+        
+    }
+    
+    
     
     func callCallBackClosures() {
         //# 通过闭包实现值在两个对象之间的来回传递。
@@ -34,6 +49,21 @@ class FMYClosuresViewController: FMYViewController {
             return inputStr.substring(from: inputStr.startIndex)
         }
         fmyObj.funcForGetInfoClosure()
+        
+        
+        
+        fmyObj.funcParamsClosure { (str1, str2) -> String in
+            print("\(str1)+\(str2)")
+            return str1+str2
+        }
+        print(fmyObj.paramsVC!("yyyy","QQQQ"))
+        
+        fmyObj.funcParams { (str1, str2) -> String in
+            
+            print("\(str1)+\(str2)")
+            return str2 + str1
+        }
+        
     }
     
     func callModelClosures() {

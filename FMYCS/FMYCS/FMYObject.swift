@@ -8,10 +8,14 @@
 
 import UIKit
 typealias sendValueClosure = (_ inputStr:String) -> String
+typealias completionHander = (_ str1:String, _ str2:String) -> String
+
 
 class FMYObject: NSObject {
     var sendVC:sendValueClosure?
 
+    var paramsVC:completionHander?
+    
     
     let closureDesc:() -> NSString =  {
         return "haha hello world"
@@ -34,4 +38,16 @@ class FMYObject: NSObject {
         self.sendVC = sendVClosure
     }
     
+    
+    public func funcParamsClosure(paramsClosure : @escaping completionHander) {
+        self.paramsVC = paramsClosure
+    }
+    
+    
+    public func funcParams(completionHander:((_ str1:String,  _ str2:String) ->String)?){
+        print("give me those param:completionHander")
+        if completionHander != nil {
+            print(completionHander!("Girl","YouAreBeautiful"))
+        }
+    }
 }
