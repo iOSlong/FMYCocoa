@@ -14,15 +14,30 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>SSZipArchive.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>01A53222B80E3DC282D6FAC9CC0FF258</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>01E81325500A14D5C2E073332E902962</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF9D0744DE77B2942A94BEF5AA980C33</key>
 		<dict>
 			<key>primary</key>
 			<true/>

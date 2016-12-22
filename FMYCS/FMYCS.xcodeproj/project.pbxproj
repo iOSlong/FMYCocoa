@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01CE75521E0ADB5200B76D1C /* FMYURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */; };
+		01CE75541E0C230700B76D1C /* FMYHTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CE75531E0C230700B76D1C /* FMYHTTPSessionManager.swift */; };
 		8E0ED0DD1E0A7CCB002A94E5 /* FMYRegionCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */; };
 		8E1067CF1E00F6B6002B6E52 /* CSLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CE1E00F6B6002B6E52 /* CSLayoutViewController.swift */; };
 		8E1067D21E0118FB002B6E52 /* constantUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067D11E0118FB002B6E52 /* constantUI.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYURLSessionManager.swift; sourceTree = "<group>"; };
+		01CE75531E0C230700B76D1C /* FMYHTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYHTTPSessionManager.swift; sourceTree = "<group>"; };
 		6184F070D9717D68A33883E6 /* libPods-FMYCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMYCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846AA5D90F2D154858ECFB89 /* Pods-FMYCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMYCS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMYCS/Pods-FMYCS.release.xcconfig"; sourceTree = "<group>"; };
 		8E0ED0DC1E0A7CCB002A94E5 /* FMYRegionCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYRegionCountry.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				01CE75511E0ADB5200B76D1C /* FMYURLSessionManager.swift */,
+				01CE75531E0C230700B76D1C /* FMYHTTPSessionManager.swift */,
 			);
 			path = NetAcess;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				8EB7261F1E0803C7004686B6 /* FMYProtocalViewController.swift in Sources */,
 				8EDC47BB1E092B78002667C8 /* FMYNetWorkingViewController.swift in Sources */,
 				8EBA41C61E0178A600895D22 /* FMYViewController.swift in Sources */,
+				01CE75541E0C230700B76D1C /* FMYHTTPSessionManager.swift in Sources */,
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
 				8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */,
 				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,

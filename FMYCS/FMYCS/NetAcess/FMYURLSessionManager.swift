@@ -7,13 +7,14 @@
 //
 
 import UIKit
+//typealias completionHander = (_ str1:String, _ str2:String) -> String
 
 
-typealias FMYSessionTaskCompletionHander = (_ response:URLResponse, _ responseObject : Any , _ error:Error) -> Void
+typealias FMYSessionTaskCompletionHander = (_ response:URLResponse?, _ responseObject : Any , _ error:Error?) -> Void
 
 class FMYURLSessionManager: NSObject,URLSessionDataDelegate {
-    var session:URLSession? = nil
-    var operationQueue:OperationQueue? = nil
+    private (set)   var session:URLSession? = nil
+    private (set)   var operationQueue:OperationQueue? = nil
 
     var dataTasks:Array<URLSessionDataTask> = []
 
@@ -21,7 +22,11 @@ class FMYURLSessionManager: NSObject,URLSessionDataDelegate {
     var sessionConfiguration:URLSessionConfiguration? = nil
     
     var completionHander:FMYSessionTaskCompletionHander? = nil
-    
+    var paramsVC:completionHander? = nil
+
+
+    var muData = Data()
+
 
     override convenience init(){
         self.init(configuration:nil)
@@ -47,31 +52,45 @@ class FMYURLSessionManager: NSObject,URLSessionDataDelegate {
 //            }
 //        })
     }
-    
-    
+
+    //for test
+    public func funcParamsClosure(paramsClosure : @escaping completionHander) {
+        self.paramsVC = paramsClosure
+    }
     
     // MARK: instance Methods
-//    func dataTask(request:) -> <#return type#> {
-//        <#function body#>
-//    }
-//    func dataTask(request:URLRequest) -> URLSessionDataTask {
-//        <#function body#>
-//    }
-    
-    
-    
+   public func dataTask(request:URLRequest,completionHander:@escaping FMYSessionTaskCompletionHander) -> URLSessionDataTask {
+        let dataTask:URLSessionDataTask = (self.session?.dataTask(with: request))!
+        self.completionHander = completionHander
+        self.dataTasks.append(dataTask)
+        return dataTask
+    }
+
+
+    func dataTaskResume() {
+        self.dataTasks.first?.resume()
+
+
+
+
+//        self.funcParamsClosure(paramsClosure: <#T##completionHander##completionHander##(String, String) -> String#>)
+    }
+
     
     // MARK: URLSessionDataDelegate   URLSessionTaskDelegate
     func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
-//        muData.append(data)
+        muData.append(data)
     }
     
     func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
 //        UIApplication.shared.isNetworkActivityIndicatorVisible = false
-//        print(error ?? "")
+        print(error ?? "")
 //        self.parseXMLData(muData)
-//        let dataStr =  String(data: muData, encoding: .utf8)
-//        print(dataStr ?? "")
+        let dataStr =  String(data: muData, encoding: .utf8)
+        if self.completionHander != nil{
+            self.completionHander!(nil,muData,nil)
+        }
+        print(dataStr ?? "")
     }
 
     

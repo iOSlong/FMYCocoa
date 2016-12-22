@@ -44,10 +44,16 @@ class FMYObject: NSObject {
     }
     
     
-    public func funcParams(completionHander:((_ str1:String,  _ str2:String) ->String)?){
+    public func funcParams(completionHander:((_ str1:String,  _ str2:String) ->String)?) ->String{
         print("give me those param:completionHander")
         if completionHander != nil {
             print(completionHander!("Girl","YouAreBeautiful"))
         }
+        return "hah"
+    }
+
+
+    func selfCloureCall() {
+//        self.funcParams(completionHander: <#T##((String, String) -> String)?##((String, String) -> String)?##(String, String) -> String#>)
     }
 }

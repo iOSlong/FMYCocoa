@@ -58,12 +58,16 @@ class FMYClosuresViewController: FMYViewController {
         }
         print(fmyObj.paramsVC!("yyyy","QQQQ"))
         
-        fmyObj.funcParams { (str1, str2) -> String in
+        let hh = fmyObj.funcParams { (str1, str2) -> String in
             
             print("\(str1)+\(str2)")
             return str2 + str1
         }
-        
+        print(hh)
+
+//        fmyObj.funcParams { (<#String#>, <#String#>) -> String in
+//            <#code#>
+//        }
     }
     
     func callModelClosures() {
