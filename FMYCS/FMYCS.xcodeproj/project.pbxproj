@@ -35,6 +35,7 @@
 		8EBA41E31E03CE0800895D22 /* FMYObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E21E03CE0800895D22 /* FMYObject.swift */; };
 		8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */; };
 		8ECE89B61E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89B51E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift */; };
+		8ED1B6C21E0D4943002F1D36 /* FMYdemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1B6C11E0D4943002F1D36 /* FMYdemo.swift */; };
 		8EDC47BB1E092B78002667C8 /* FMYNetWorkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */; };
 		8EDC47BD1E093C74002667C8 /* FMYUIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */; };
 		8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */; };
@@ -78,6 +79,7 @@
 		8EBA41E21E03CE0800895D22 /* FMYObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYObject.swift; sourceTree = "<group>"; };
 		8EBA41E41E03E5CA00895D22 /* FMYValuesTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYValuesTypeViewController.swift; sourceTree = "<group>"; };
 		8ECE89B51E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYNetXMLSchemaViewController.swift; sourceTree = "<group>"; };
+		8ED1B6C11E0D4943002F1D36 /* FMYdemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYdemo.swift; sourceTree = "<group>"; };
 		8EDC47BA1E092B78002667C8 /* FMYNetWorkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYNetWorkingViewController.swift; sourceTree = "<group>"; };
 		8EDC47BC1E093C74002667C8 /* FMYUIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYUIWebViewController.swift; sourceTree = "<group>"; };
 		8EDC47BE1E093C7C002667C8 /* FMYMKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMYMKWebViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				8E1067CD1E00F35A002B6E52 /* Constants */,
 				8E897B7A1DF0313400EE0BD2 /* viewcontrollers */,
 				8E897B681DF02EBF00EE0BD2 /* AppDelegate.swift */,
+				8ED1B6C11E0D4943002F1D36 /* FMYdemo.swift */,
 				8E897B6A1DF02EBF00EE0BD2 /* ViewController.swift */,
 				8EBA41D41E0276FE00895D22 /* moonNight.jpg */,
 				8EBA41D61E02837000895D22 /* yellowMoonCityNight.jpg */,
@@ -367,6 +370,7 @@
 				01CE75541E0C230700B76D1C /* FMYHTTPSessionManager.swift in Sources */,
 				8EBA41CA1E01790800895D22 /* FMYUIControlViewController.swift in Sources */,
 				8EDC47BF1E093C7C002667C8 /* FMYMKWebViewController.swift in Sources */,
+				8ED1B6C21E0D4943002F1D36 /* FMYdemo.swift in Sources */,
 				8EBA41E01E03983500895D22 /* FMYClosuresViewController.swift in Sources */,
 				8ECE89B61E0A749900492AE6 /* FMYNetXMLSchemaViewController.swift in Sources */,
 				8EBA41E51E03E5CA00895D22 /* FMYValuesTypeViewController.swift in Sources */,

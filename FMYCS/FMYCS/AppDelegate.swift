@@ -5,6 +5,8 @@
 //  Created by xuewu.long on 16/12/1.
 //  Copyright © 2016年 fmylove. All rights reserved.
 //
+//https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
+
 
 import UIKit
 
@@ -99,35 +101,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let mySessionM:FMYURLSessionManager = FMYURLSessionManager(configuration: nil)
         let mySessionM2:FMYURLSessionManager = FMYURLSessionManager()
 
-        let httpSession:FMYHTTPSessionManager = FMYHTTPSessionManager(url: URL(string: url_regionCountry), configuration: nil)
+        let httpSession:FMYHTTPSessionManager = FMYHTTPSessionManager(url: URL(string: url_webxmlBase), configuration: nil)
 
 
 
-        let task = httpSession.net(method: nil, parameters: nil, success:{(dataTask, object) -> Void in
+        let task = httpSession.net(method: nil, parameters: ["key":"value","key2":"value2","key2":"value3"], success:{(dataTask, object) -> Void in
             print(object)
             print(dataTask ?? "empty")
             let dataStr =  String(data: object as! Data, encoding: .utf8)
             print(dataTask)
 
         }, failure: {(dataTask, error) -> Void in
-
             print(error)
             print(dataTask ?? "empty    ")
 
         })
         
+        
+        
         print(task)
         
-        
-        
-
-
-
-
-
-
-
-
 
         return true
     }

@@ -25,6 +25,8 @@ class FMYUIListViewController: UIViewController,UITableViewDelegate,UITableViewD
                 _tableView?.sectionIndexTrackingBackgroundColor = UIColor.black
                 _tableView?.sectionIndexColor = UIColor.black
                 _tableView!.sectionIndexBackgroundColor = UIColor.black
+                _tableView?.bounces = false
+                
                 return _tableView!
             }
             return _tableView!
